@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760F89797487D973E59E5490 /* Pods_PinsoftMovie_PinsoftMovieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE71E8B06EC8A369CBECB8F8 /* Pods_PinsoftMovie_PinsoftMovieUITests.framework */; };
+		BC61D7702A26AACE00635552 /* MainContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D76B2A26AACE00635552 /* MainContract.swift */; };
+		BC61D7712A26AACE00635552 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D76C2A26AACE00635552 /* MainPresenter.swift */; };
+		BC61D7722A26AACE00635552 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D76D2A26AACE00635552 /* MainRouter.swift */; };
+		BC61D7732A26AACE00635552 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D76E2A26AACE00635552 /* MainViewController.swift */; };
+		BC61D7742A26AACE00635552 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D76F2A26AACE00635552 /* MainInteractor.swift */; };
+		BC61D77A2A26AAE400635552 /* DetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7752A26AAE400635552 /* DetailContract.swift */; };
+		BC61D77B2A26AAE400635552 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7762A26AAE400635552 /* DetailPresenter.swift */; };
+		BC61D77C2A26AAE400635552 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7772A26AAE400635552 /* DetailRouter.swift */; };
+		BC61D77D2A26AAE400635552 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7782A26AAE400635552 /* DetailViewController.swift */; };
+		BC61D77E2A26AAE400635552 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7792A26AAE400635552 /* DetailInteractor.swift */; };
+		BC61D7852A26ABF600635552 /* SplashScreenContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7802A26ABF600635552 /* SplashScreenContract.swift */; };
+		BC61D7862A26ABF600635552 /* SplashScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7812A26ABF600635552 /* SplashScreenPresenter.swift */; };
+		BC61D7872A26ABF600635552 /* SplashScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7822A26ABF600635552 /* SplashScreenRouter.swift */; };
+		BC61D7882A26ABF600635552 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7832A26ABF600635552 /* SplashScreenViewController.swift */; };
+		BC61D7892A26ABF600635552 /* SplashScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7842A26ABF600635552 /* SplashScreenInteractor.swift */; };
+		BC61D78B2A26AC4700635552 /* SplashScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC61D78A2A26AC4700635552 /* SplashScreenView.storyboard */; };
+		BC61D78D2A26AC5B00635552 /* DetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC61D78C2A26AC5B00635552 /* DetailView.storyboard */; };
+		BC61D78F2A26AC6B00635552 /* MainScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC61D78E2A26AC6B00635552 /* MainScreenView.storyboard */; };
+		BC61D7912A26B3ED00635552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC61D7902A26B3ED00635552 /* Main.storyboard */; };
+		BC61D7932A27513200635552 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7922A27513200635552 /* MovieCell.swift */; };
+		BC61D7962A27BFE800635552 /* MovieModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7952A27BFE800635552 /* MovieModal.swift */; };
+		BC61D7992A27DEFB00635552 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D7982A27DEFB00635552 /* ApiService.swift */; };
+		BCADCAA22A26106700891674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCADCAA12A26106700891674 /* AppDelegate.swift */; };
+		BCADCAA42A26106700891674 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCADCAA32A26106700891674 /* SceneDelegate.swift */; };
+		BCADCAA62A26106700891674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCADCAA52A26106700891674 /* ViewController.swift */; };
+		BCADCAAC2A26106700891674 /* PinsoftMovie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCADCAAA2A26106700891674 /* PinsoftMovie.xcdatamodeld */; };
+		BCADCAAE2A26106800891674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCADCAAD2A26106800891674 /* Assets.xcassets */; };
+		BCADCAB12A26106800891674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCADCAAF2A26106800891674 /* LaunchScreen.storyboard */; };
+		BCADCABC2A26106800891674 /* PinsoftMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCADCABB2A26106800891674 /* PinsoftMovieTests.swift */; };
+		BCADCAC62A26106800891674 /* PinsoftMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCADCAC52A26106800891674 /* PinsoftMovieUITests.swift */; };
+		BCADCAC82A26106800891674 /* PinsoftMovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCADCAC72A26106800891674 /* PinsoftMovieUITestsLaunchTests.swift */; };
+		BCADCAD52A2615C200891674 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCADCAD42A2615C200891674 /* GoogleService-Info.plist */; };
+		DB16C806C4CD5ACBC6506D99 /* Pods_PinsoftMovieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DE7A81F9A9211E1FB85B5A /* Pods_PinsoftMovieTests.framework */; };
+		FF49689AC1F27E83C937AC6A /* Pods_PinsoftMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F462AD67EF24FEC389F3AD5 /* Pods_PinsoftMovie.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCADCAB82A26106800891674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCADCA962A26106700891674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCADCA9D2A26106700891674;
+			remoteInfo = PinsoftMovie;
+		};
+		BCADCAC22A26106800891674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCADCA962A26106700891674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCADCA9D2A26106700891674;
+			remoteInfo = PinsoftMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F462AD67EF24FEC389F3AD5 /* Pods_PinsoftMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinsoftMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C0A75E0EC079C5F1A67654 /* Pods-PinsoftMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinsoftMovie.release.xcconfig"; path = "Target Support Files/Pods-PinsoftMovie/Pods-PinsoftMovie.release.xcconfig"; sourceTree = "<group>"; };
+		4F1F0DBCCC66371C534549F6 /* Pods-PinsoftMovie-PinsoftMovieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinsoftMovie-PinsoftMovieUITests.debug.xcconfig"; path = "Target Support Files/Pods-PinsoftMovie-PinsoftMovieUITests/Pods-PinsoftMovie-PinsoftMovieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E701E8FB5375D8977D3B713 /* Pods-PinsoftMovie-PinsoftMovieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinsoftMovie-PinsoftMovieUITests.release.xcconfig"; path = "Target Support Files/Pods-PinsoftMovie-PinsoftMovieUITests/Pods-PinsoftMovie-PinsoftMovieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		740B69E3602BEA4006050C44 /* Pods-PinsoftMovieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinsoftMovieTests.debug.xcconfig"; path = "Target Support Files/Pods-PinsoftMovieTests/Pods-PinsoftMovieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78DE7A81F9A9211E1FB85B5A /* Pods_PinsoftMovieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinsoftMovieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC61D76B2A26AACE00635552 /* MainContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContract.swift; sourceTree = "<group>"; };
+		BC61D76C2A26AACE00635552 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		BC61D76D2A26AACE00635552 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		BC61D76E2A26AACE00635552 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BC61D76F2A26AACE00635552 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		BC61D7752A26AAE400635552 /* DetailContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContract.swift; sourceTree = "<group>"; };
+		BC61D7762A26AAE400635552 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		BC61D7772A26AAE400635552 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		BC61D7782A26AAE400635552 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BC61D7792A26AAE400635552 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		BC61D7802A26ABF600635552 /* SplashScreenContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenContract.swift; sourceTree = "<group>"; };
+		BC61D7812A26ABF600635552 /* SplashScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenPresenter.swift; sourceTree = "<group>"; };
+		BC61D7822A26ABF600635552 /* SplashScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenRouter.swift; sourceTree = "<group>"; };
+		BC61D7832A26ABF600635552 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		BC61D7842A26ABF600635552 /* SplashScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenInteractor.swift; sourceTree = "<group>"; };
+		BC61D78A2A26AC4700635552 /* SplashScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreenView.storyboard; sourceTree = "<group>"; };
+		BC61D78C2A26AC5B00635552 /* DetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailView.storyboard; sourceTree = "<group>"; };
+		BC61D78E2A26AC6B00635552 /* MainScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScreenView.storyboard; sourceTree = "<group>"; };
+		BC61D7902A26B3ED00635552 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BC61D7922A27513200635552 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		BC61D7952A27BFE800635552 /* MovieModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModal.swift; sourceTree = "<group>"; };
+		BC61D7982A27DEFB00635552 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		BCADCA9E2A26106700891674 /* PinsoftMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinsoftMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCADCAA12A26106700891674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCADCAA32A26106700891674 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCADCAA52A26106700891674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCADCAAB2A26106700891674 /* PinsoftMovie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PinsoftMovie.xcdatamodel; sourceTree = "<group>"; };
+		BCADCAAD2A26106800891674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCADCAB02A26106800891674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCADCAB22A26106800891674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCADCAB72A26106800891674 /* PinsoftMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinsoftMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCADCABB2A26106800891674 /* PinsoftMovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsoftMovieTests.swift; sourceTree = "<group>"; };
+		BCADCAC12A26106800891674 /* PinsoftMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinsoftMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCADCAC52A26106800891674 /* PinsoftMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsoftMovieUITests.swift; sourceTree = "<group>"; };
+		BCADCAC72A26106800891674 /* PinsoftMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsoftMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCADCAD42A2615C200891674 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCEA19B92A28BE76003CFDD2 /* PinsoftMovie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PinsoftMovie.entitlements; sourceTree = "<group>"; };
+		DE71E8B06EC8A369CBECB8F8 /* Pods_PinsoftMovie_PinsoftMovieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinsoftMovie_PinsoftMovieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2ABD0DB24D84A8DB42C4FA9 /* Pods-PinsoftMovieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinsoftMovieTests.release.xcconfig"; path = "Target Support Files/Pods-PinsoftMovieTests/Pods-PinsoftMovieTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5EC1E3B114494E82B0BBEBB /* Pods-PinsoftMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinsoftMovie.debug.xcconfig"; path = "Target Support Files/Pods-PinsoftMovie/Pods-PinsoftMovie.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCADCA9B2A26106700891674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF49689AC1F27E83C937AC6A /* Pods_PinsoftMovie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCADCAB42A26106800891674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB16C806C4CD5ACBC6506D99 /* Pods_PinsoftMovieTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCADCABE2A26106800891674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760F89797487D973E59E5490 /* Pods_PinsoftMovie_PinsoftMovieUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E73A9BD77A042B8F412C2C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F462AD67EF24FEC389F3AD5 /* Pods_PinsoftMovie.framework */,
+				DE71E8B06EC8A369CBECB8F8 /* Pods_PinsoftMovie_PinsoftMovieUITests.framework */,
+				78DE7A81F9A9211E1FB85B5A /* Pods_PinsoftMovieTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A986D9EE773710B668ADB3D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5EC1E3B114494E82B0BBEBB /* Pods-PinsoftMovie.debug.xcconfig */,
+				40C0A75E0EC079C5F1A67654 /* Pods-PinsoftMovie.release.xcconfig */,
+				4F1F0DBCCC66371C534549F6 /* Pods-PinsoftMovie-PinsoftMovieUITests.debug.xcconfig */,
+				5E701E8FB5375D8977D3B713 /* Pods-PinsoftMovie-PinsoftMovieUITests.release.xcconfig */,
+				740B69E3602BEA4006050C44 /* Pods-PinsoftMovieTests.debug.xcconfig */,
+				F2ABD0DB24D84A8DB42C4FA9 /* Pods-PinsoftMovieTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC61D75F2A26AA4500635552 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BC61D76B2A26AACE00635552 /* MainContract.swift */,
+				BC61D76C2A26AACE00635552 /* MainPresenter.swift */,
+				BC61D76D2A26AACE00635552 /* MainRouter.swift */,
+				BC61D76E2A26AACE00635552 /* MainViewController.swift */,
+				BC61D76F2A26AACE00635552 /* MainInteractor.swift */,
+				BC61D78E2A26AC6B00635552 /* MainScreenView.storyboard */,
+				BC61D7922A27513200635552 /* MovieCell.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		BC61D7602A26AA5000635552 /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BC61D7752A26AAE400635552 /* DetailContract.swift */,
+				BC61D7762A26AAE400635552 /* DetailPresenter.swift */,
+				BC61D7772A26AAE400635552 /* DetailRouter.swift */,
+				BC61D7782A26AAE400635552 /* DetailViewController.swift */,
+				BC61D7792A26AAE400635552 /* DetailInteractor.swift */,
+				BC61D78C2A26AC5B00635552 /* DetailView.storyboard */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		BC61D77F2A26AB8900635552 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BC61D7802A26ABF600635552 /* SplashScreenContract.swift */,
+				BC61D7812A26ABF600635552 /* SplashScreenPresenter.swift */,
+				BC61D7822A26ABF600635552 /* SplashScreenRouter.swift */,
+				BC61D7832A26ABF600635552 /* SplashScreenViewController.swift */,
+				BC61D7842A26ABF600635552 /* SplashScreenInteractor.swift */,
+				BC61D78A2A26AC4700635552 /* SplashScreenView.storyboard */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		BC61D7942A27BFA800635552 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				BC61D7952A27BFE800635552 /* MovieModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		BC61D7972A27DEE500635552 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC61D7982A27DEFB00635552 /* ApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BCADCA952A26106700891674 = {
+			isa = PBXGroup;
+			children = (
+				BCADCAA02A26106700891674 /* PinsoftMovie */,
+				BCADCABA2A26106800891674 /* PinsoftMovieTests */,
+				BCADCAC42A26106800891674 /* PinsoftMovieUITests */,
+				BCADCA9F2A26106700891674 /* Products */,
+				A986D9EE773710B668ADB3D0 /* Pods */,
+				6E73A9BD77A042B8F412C2C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCADCA9F2A26106700891674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCADCA9E2A26106700891674 /* PinsoftMovie.app */,
+				BCADCAB72A26106800891674 /* PinsoftMovieTests.xctest */,
+				BCADCAC12A26106800891674 /* PinsoftMovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCADCAA02A26106700891674 /* PinsoftMovie */ = {
+			isa = PBXGroup;
+			children = (
+				BCEA19B92A28BE76003CFDD2 /* PinsoftMovie.entitlements */,
+				BC61D7972A27DEE500635552 /* Services */,
+				BC61D77F2A26AB8900635552 /* SplashScreen */,
+				BC61D7602A26AA5000635552 /* DetailScreen */,
+				BC61D75F2A26AA4500635552 /* MainScreen */,
+				BC61D7942A27BFA800635552 /* Modal */,
+				BCADCAA12A26106700891674 /* AppDelegate.swift */,
+				BCADCAA32A26106700891674 /* SceneDelegate.swift */,
+				BCADCAA52A26106700891674 /* ViewController.swift */,
+				BCADCAAD2A26106800891674 /* Assets.xcassets */,
+				BCADCAAF2A26106800891674 /* LaunchScreen.storyboard */,
+				BCADCAB22A26106800891674 /* Info.plist */,
+				BCADCAAA2A26106700891674 /* PinsoftMovie.xcdatamodeld */,
+				BCADCAD42A2615C200891674 /* GoogleService-Info.plist */,
+				BC61D7902A26B3ED00635552 /* Main.storyboard */,
+			);
+			path = PinsoftMovie;
+			sourceTree = "<group>";
+		};
+		BCADCABA2A26106800891674 /* PinsoftMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCADCABB2A26106800891674 /* PinsoftMovieTests.swift */,
+			);
+			path = PinsoftMovieTests;
+			sourceTree = "<group>";
+		};
+		BCADCAC42A26106800891674 /* PinsoftMovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCADCAC52A26106800891674 /* PinsoftMovieUITests.swift */,
+				BCADCAC72A26106800891674 /* PinsoftMovieUITestsLaunchTests.swift */,
+			);
+			path = PinsoftMovieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCADCA9D2A26106700891674 /* PinsoftMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCADCACB2A26106800891674 /* Build configuration list for PBXNativeTarget "PinsoftMovie" */;
+			buildPhases = (
+				2DEBB95C598560B2D78B34A7 /* [CP] Check Pods Manifest.lock */,
+				BCADCA9A2A26106700891674 /* Sources */,
+				BCADCA9B2A26106700891674 /* Frameworks */,
+				BCADCA9C2A26106700891674 /* Resources */,
+				384D93504A8CE320B7E5C3E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinsoftMovie;
+			productName = PinsoftMovie;
+			productReference = BCADCA9E2A26106700891674 /* PinsoftMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCADCAB62A26106800891674 /* PinsoftMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCADCACE2A26106800891674 /* Build configuration list for PBXNativeTarget "PinsoftMovieTests" */;
+			buildPhases = (
+				CCCD8AD33CCBF946A243FC60 /* [CP] Check Pods Manifest.lock */,
+				BCADCAB32A26106800891674 /* Sources */,
+				BCADCAB42A26106800891674 /* Frameworks */,
+				BCADCAB52A26106800891674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCADCAB92A26106800891674 /* PBXTargetDependency */,
+			);
+			name = PinsoftMovieTests;
+			productName = PinsoftMovieTests;
+			productReference = BCADCAB72A26106800891674 /* PinsoftMovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCADCAC02A26106800891674 /* PinsoftMovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCADCAD12A26106800891674 /* Build configuration list for PBXNativeTarget "PinsoftMovieUITests" */;
+			buildPhases = (
+				2A5F26FF3074595C34FE919F /* [CP] Check Pods Manifest.lock */,
+				BCADCABD2A26106800891674 /* Sources */,
+				BCADCABE2A26106800891674 /* Frameworks */,
+				BCADCABF2A26106800891674 /* Resources */,
+				CE6F11B1120A314A551C8172 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCADCAC32A26106800891674 /* PBXTargetDependency */,
+			);
+			name = PinsoftMovieUITests;
+			productName = PinsoftMovieUITests;
+			productReference = BCADCAC12A26106800891674 /* PinsoftMovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCADCA962A26106700891674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BCADCA9D2A26106700891674 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					BCADCAB62A26106800891674 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BCADCA9D2A26106700891674;
+					};
+					BCADCAC02A26106800891674 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BCADCA9D2A26106700891674;
+					};
+				};
+			};
+			buildConfigurationList = BCADCA992A26106700891674 /* Build configuration list for PBXProject "PinsoftMovie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCADCA952A26106700891674;
+			productRefGroup = BCADCA9F2A26106700891674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCADCA9D2A26106700891674 /* PinsoftMovie */,
+				BCADCAB62A26106800891674 /* PinsoftMovieTests */,
+				BCADCAC02A26106800891674 /* PinsoftMovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCADCA9C2A26106700891674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC61D7912A26B3ED00635552 /* Main.storyboard in Resources */,
+				BCADCAB12A26106800891674 /* LaunchScreen.storyboard in Resources */,
+				BCADCAD52A2615C200891674 /* GoogleService-Info.plist in Resources */,
+				BC61D78D2A26AC5B00635552 /* DetailView.storyboard in Resources */,
+				BCADCAAE2A26106800891674 /* Assets.xcassets in Resources */,
+				BC61D78F2A26AC6B00635552 /* MainScreenView.storyboard in Resources */,
+				BC61D78B2A26AC4700635552 /* SplashScreenView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCADCAB52A26106800891674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCADCABF2A26106800891674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A5F26FF3074595C34FE919F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinsoftMovie-PinsoftMovieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DEBB95C598560B2D78B34A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinsoftMovie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		384D93504A8CE320B7E5C3E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinsoftMovie/Pods-PinsoftMovie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinsoftMovie/Pods-PinsoftMovie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PinsoftMovie/Pods-PinsoftMovie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCCD8AD33CCBF946A243FC60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinsoftMovieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6F11B1120A314A551C8172 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinsoftMovie-PinsoftMovieUITests/Pods-PinsoftMovie-PinsoftMovieUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinsoftMovie-PinsoftMovieUITests/Pods-PinsoftMovie-PinsoftMovieUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PinsoftMovie-PinsoftMovieUITests/Pods-PinsoftMovie-PinsoftMovieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCADCA9A2A26106700891674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC61D77A2A26AAE400635552 /* DetailContract.swift in Sources */,
+				BC61D7962A27BFE800635552 /* MovieModal.swift in Sources */,
+				BC61D7892A26ABF600635552 /* SplashScreenInteractor.swift in Sources */,
+				BCADCAAC2A26106700891674 /* PinsoftMovie.xcdatamodeld in Sources */,
+				BC61D7702A26AACE00635552 /* MainContract.swift in Sources */,
+				BC61D7722A26AACE00635552 /* MainRouter.swift in Sources */,
+				BC61D7992A27DEFB00635552 /* ApiService.swift in Sources */,
+				BCADCAA62A26106700891674 /* ViewController.swift in Sources */,
+				BC61D7732A26AACE00635552 /* MainViewController.swift in Sources */,
+				BC61D7742A26AACE00635552 /* MainInteractor.swift in Sources */,
+				BC61D77D2A26AAE400635552 /* DetailViewController.swift in Sources */,
+				BC61D77E2A26AAE400635552 /* DetailInteractor.swift in Sources */,
+				BCADCAA22A26106700891674 /* AppDelegate.swift in Sources */,
+				BC61D7712A26AACE00635552 /* MainPresenter.swift in Sources */,
+				BC61D7882A26ABF600635552 /* SplashScreenViewController.swift in Sources */,
+				BC61D7872A26ABF600635552 /* SplashScreenRouter.swift in Sources */,
+				BCADCAA42A26106700891674 /* SceneDelegate.swift in Sources */,
+				BC61D77C2A26AAE400635552 /* DetailRouter.swift in Sources */,
+				BC61D7862A26ABF600635552 /* SplashScreenPresenter.swift in Sources */,
+				BC61D7852A26ABF600635552 /* SplashScreenContract.swift in Sources */,
+				BC61D7932A27513200635552 /* MovieCell.swift in Sources */,
+				BC61D77B2A26AAE400635552 /* DetailPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCADCAB32A26106800891674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCADCABC2A26106800891674 /* PinsoftMovieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCADCABD2A26106800891674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCADCAC62A26106800891674 /* PinsoftMovieUITests.swift in Sources */,
+				BCADCAC82A26106800891674 /* PinsoftMovieUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCADCAB92A26106800891674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCADCA9D2A26106700891674 /* PinsoftMovie */;
+			targetProxy = BCADCAB82A26106800891674 /* PBXContainerItemProxy */;
+		};
+		BCADCAC32A26106800891674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCADCA9D2A26106700891674 /* PinsoftMovie */;
+			targetProxy = BCADCAC22A26106800891674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCADCAAF2A26106800891674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCADCAB02A26106800891674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCADCAC92A26106800891674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCADCACA2A26106800891674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCADCACC2A26106800891674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EC1E3B114494E82B0BBEBB /* Pods-PinsoftMovie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PinsoftMovie/PinsoftMovie.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinsoftMovie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashScreenView;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.PinsoftMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCADCACD2A26106800891674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C0A75E0EC079C5F1A67654 /* Pods-PinsoftMovie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PinsoftMovie/PinsoftMovie.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinsoftMovie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashScreenView;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.PinsoftMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCADCACF2A26106800891674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740B69E3602BEA4006050C44 /* Pods-PinsoftMovieTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.PinsoftMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinsoftMovie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PinsoftMovie";
+			};
+			name = Debug;
+		};
+		BCADCAD02A26106800891674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2ABD0DB24D84A8DB42C4FA9 /* Pods-PinsoftMovieTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.PinsoftMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinsoftMovie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PinsoftMovie";
+			};
+			name = Release;
+		};
+		BCADCAD22A26106800891674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1F0DBCCC66371C534549F6 /* Pods-PinsoftMovie-PinsoftMovieUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.PinsoftMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinsoftMovie;
+			};
+			name = Debug;
+		};
+		BCADCAD32A26106800891674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E701E8FB5375D8977D3B713 /* Pods-PinsoftMovie-PinsoftMovieUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKX44C3NMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.ketencioglu.PinsoftMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinsoftMovie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCADCA992A26106700891674 /* Build configuration list for PBXProject "PinsoftMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCADCAC92A26106800891674 /* Debug */,
+				BCADCACA2A26106800891674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCADCACB2A26106800891674 /* Build configuration list for PBXNativeTarget "PinsoftMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCADCACC2A26106800891674 /* Debug */,
+				BCADCACD2A26106800891674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCADCACE2A26106800891674 /* Build configuration list for PBXNativeTarget "PinsoftMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCADCACF2A26106800891674 /* Debug */,
+				BCADCAD02A26106800891674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCADCAD12A26106800891674 /* Build configuration list for PBXNativeTarget "PinsoftMovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCADCAD22A26106800891674 /* Debug */,
+				BCADCAD32A26106800891674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCADCAAA2A26106700891674 /* PinsoftMovie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCADCAAB2A26106700891674 /* PinsoftMovie.xcdatamodel */,
+			);
+			currentVersion = BCADCAAB2A26106700891674 /* PinsoftMovie.xcdatamodel */;
+			path = PinsoftMovie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCADCA962A26106700891674 /* Project object */;
+}

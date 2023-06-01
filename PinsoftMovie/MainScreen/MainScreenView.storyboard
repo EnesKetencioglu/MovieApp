@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gbs-KF-1lC">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="MainViewController" customModule="PinsoftMovie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainIcon" translatesAutoresizingMaskIntoConstraints="NO" id="6LF-yU-QcL">
+                                <rect key="frame" x="30" y="369.66666666666674" width="333" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="aLE-50-jjB"/>
+                                </constraints>
+                            </imageView>
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search Films" translatesAutoresizingMaskIntoConstraints="NO" id="ocg-gW-PvM">
+                                <rect key="frame" x="20" y="165" width="353" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="OQO-EU-PwV"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dZT-Oo-wBQ">
+                                <rect key="frame" x="20" y="231" width="353" height="577"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="5EZ-qb-Rvc" id="pL7-oM-fwz"/>
+                                    <outlet property="delegate" destination="5EZ-qb-Rvc" id="car-V5-Idb"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="dZT-Oo-wBQ" secondAttribute="trailing" constant="20" id="2Gw-Sa-0ks"/>
+                            <constraint firstItem="dZT-Oo-wBQ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="2xl-WF-Wo6"/>
+                            <constraint firstItem="ocg-gW-PvM" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="55g-Ws-dEs"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="6LF-yU-QcL" secondAttribute="trailing" constant="30" id="HRH-L5-B15"/>
+                            <constraint firstItem="ocg-gW-PvM" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="ZRw-zM-vWI"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="dZT-Oo-wBQ" secondAttribute="bottom" constant="10" id="adS-OA-n0v"/>
+                            <constraint firstItem="6LF-yU-QcL" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="b4h-Ct-UbK"/>
+                            <constraint firstAttribute="trailing" secondItem="ocg-gW-PvM" secondAttribute="trailing" constant="20" id="eyG-ux-f3X"/>
+                            <constraint firstItem="6LF-yU-QcL" firstAttribute="centerY" secondItem="dZT-Oo-wBQ" secondAttribute="centerY" id="i4a-gt-B8F"/>
+                            <constraint firstItem="dZT-Oo-wBQ" firstAttribute="top" secondItem="ocg-gW-PvM" secondAttribute="bottom" constant="10" id="oto-fP-lHo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Search" id="x3Y-F4-izX"/>
+                    <connections>
+                        <outlet property="searchBar" destination="ocg-gW-PvM" id="LdI-Du-88U"/>
+                        <outlet property="tableView" destination="dZT-Oo-wBQ" id="cIW-Ap-eu8"/>
+                        <segue destination="L2M-yg-G3b" kind="showDetail" identifier="movieDetail" id="oy5-4T-aoa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1896.9465648854962" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vHO-ca-S9N">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gbs-KF-1lC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="N7N-15-Gg3">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="zGa-Os-4qL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ea-Fs-FB3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="970.2290076335878" y="-2.1126760563380285"/>
+        </scene>
+        <!--DetailViewController-->
+        <scene sceneID="iZg-5q-O9G">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DetailView" referencedIdentifier="DetailViewController" id="L2M-yg-G3b" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6BK-U3-tTI"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8x0-ue-a8v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2696" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mainIcon" width="170.66667175292969" height="170.66667175292969"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

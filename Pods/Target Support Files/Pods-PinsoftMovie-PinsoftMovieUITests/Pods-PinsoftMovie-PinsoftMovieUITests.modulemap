@@ -1,0 +1,6 @@
+framework module Pods_PinsoftMovie_PinsoftMovieUITests {
+  umbrella header "Pods-PinsoftMovie-PinsoftMovieUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

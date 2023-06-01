@@ -1,0 +1,6 @@
+framework module Pods_PinsoftMovie {
+  umbrella header "Pods-PinsoftMovie-umbrella.h"
+
+  export *
+  module * { export * }
+}
